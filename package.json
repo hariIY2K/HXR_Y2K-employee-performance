@@ -1,0 +1,4 @@
+{"name":"employee-performance","productName":"EmployeePerformance","version":"2.0.0","description":"Offline employee behavioural performance review system","author":"HR","main":"main.js",
+"scripts":{"start":"electron .","build":"electron-builder --win portable --x64"},
+"devDependencies":{"electron":"31.7.7","electron-builder":"24.13.3"},
+"build":{"appId":"local.employee.performance","files":["main.js","preload.js","index.html"],"win":{"target":"portable","signAndEditExecutable":false},"portable":{"artifactName":"EmployeePerformance.exe"}}}

@@ -1,0 +1,9 @@
+# never commit employee data or build output
+data/
+*.json.bak
+EmployeePerformance_Backups/
+*backup*.json
+auto_*.json
+node_modules/
+dist/
+*.exe
